@@ -1,0 +1,47 @@
+
+
+
+まず書き方に慣れる。
+0,スクリプトタグ宣言<script type="text/javascript">
+１、関数宣言
+２、関数名
+３、引数宣言｛｝
+４、中に処理を書いていく
+
+
+
+<script type="text/javascript">
+
+function hoge(hoge){
+
+
+
+}
+
+
+
+5,変数はすべてvar型
+
+var hoge=document.getElementsByName("Id")[0];
+var hoge_name=hoge.name;
+
+これで自由に要素の値ｍにアクセスできる。
+おそらくこれはゲットしてるだけでセットできない。
+セットしたい場合は下のやつでやる。
+
+これはname属性がIDのものを取得する。
+
+５、要素の取得のやり方
+
+document.form1.hid1.value = aert;
+
+ドキュメント.フォームname.タグname.要素名＝値：
+
+
+８、サーブレットで一番きついのはハッシュの受け渡し、
+　　リクエスト、セッションの受け渡し、
+
+
+
+６、サブミットのやり方
+
