@@ -1,0 +1,8 @@
+String str = "124";
+Integer oi = Integer.valueOf(str);
+
+String str = "124.567";
+int i = Integer.parseInt(str);
+
+ 	
+String s = String.valueOf(i);
