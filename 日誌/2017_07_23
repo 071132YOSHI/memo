@@ -51,9 +51,23 @@ HTMLパーサーは見つけた
 
 クライアントサイド・・・http://qiita.com/yk0614/items/c306bddc66ab7882c7ba
 　　　　　外部APIの利用の仕方：https://teratail.com/questions/28489
-http://www.techscore.com/blog/2016/09/20/jersey-client-api/
-http://d.hatena.ne.jp/celitan/20101219/1292750813
+http://www.techscore.com/blog/2016/09/20/jersey
+HTTPリクエストの送り方：http://d.hatena.ne.jp/Kazuhira/20131026/1382796711
 
+ってかそもそもネットワークの使い方自体がわかってなかった。
+javaだと標準ライブラリで受け取れそう。
+いままで検索方法がおかしかった。
+javaのHTTP接続方法はいっぱいあるし、簡単。
+
+標準ライブラリのみでやる方法はhttpURLrequest?らしい
+
+
+あと新しい技術は１ヶ月も触ってたらあたりまえになってる。
+どんどん触ってなれるだけでいい
+
+今後やるべきjavaの内容
+→ネットワークプログラミング
+  HTTP以外にもソケットプログラミングもする。ＨＴＴＰ以外でも通信できる。
 
 つくるウェブサイト案
 すべて自動更新、
@@ -69,3 +83,7 @@ http://d.hatena.ne.jp/celitan/20101219/1292750813
 
 ３・・・動画ダウンローダー制限なしのやつ。
 
+ネットワークプログラミング案、世のためにつくるだけ
+１、ネットワークカードバトル、まだ誰も作ってない。
+
+２、
