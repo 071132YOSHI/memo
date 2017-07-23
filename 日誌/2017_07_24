@@ -1,0 +1,127 @@
+静止してるものなら全部javaで書く。
+幸いiphone以外ならすべてjavaで書ける。
+あとjavaFXがくっそ簡単。ＨＴＭＬわかってると余裕でかける。
+ＸＭＬ→ＨＴＭＬのタグ自由に作れるだけのやつ
+ＨＴＭＬ→タグで文に意味づけをする。これをメタ言語と呼んでいる。
+
+とりあえず研修終わるまではjava漬けになる。
+目標も決めといた方がいいと思う。
+
+とりあえず現状は本当に危ない。
+
+なにか収入を得れる方法を考えないといけない。
+条件１：案件は利用しない。
+条件２：なにか作ってそれを売りたい。orアフィって収入を得る。
+
+
+フレームワーク・・・あらたな言語仕様を定義してる
+ｖｓ　
+ライブラリ・・・ただ追加で利用できるだけ。
+
+このせいでspringがＤＩとＡＯＲ？とかの言語仕様変更で一気に雰囲気変わって
+しまってる。そもそもライブラリではないことに注意。
+
+springって本当に文法が変わるから違う言語やってるレベルになる。
+とりあえず今年中はなしでいい。
+springのありがたみを知るために素でどんどん作っていく。
+そもそもそんな大規模開発しないし。
+
+ｃｓｓがフォント決めれるらしい。
+ここらへんも一応テンプレ決めてると作りやすいかもしれない。
+
+javascriptでできること
+１、ＤＯＭ操作、そもそもただのＣＳＳの延長になってる。
+２、オンクリック、ホバー、時間で変化が使える。
+３、
+
+
+js→ＶとＭは分ける。それがバックボーンｊｓだけど。
+jquery・・・メソッドの種類、イベントハンドラーの種類、代表的な作る奴もまとめる。
+　　　　　　そもそもjavascriptのメソッドの種類も求めておく。
+
+jqueryメソッド一覧　http://bellsmarket.hatenablog.com/entry/2015/03/03/215717
+jqueryイベントハンドラー一覧　http://bellsmarket.hatenablog.com/entry/2015/03/03/215717
+
+    $('#btn').click(function() {
+        $('#form1').submit();
+    });
+    
+    bottun id=btn>  <form id=form1>で
+    この書き方でjqueryでいけるらしい。
+    ソース：http://raining.bear-life.com/jquery/jquery%E3%81%A7submit%EF%BC%88%E3%82%B5%E3%83%96%E3%83%9F%E3%83%83%E3%83%88%EF%BC%89%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95
+    
+    
+    
+一応これで入力値チェックできる。
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery チェック集</title>
+  <meta charset="UTF-8" />
+  <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+  <script type="text/javascript">
+  $(function() {
+    // 空文字チェック
+    $("#chk1").change(function() {
+      if($("input").val() == "") {
+        $("p").html('空文字です');
+        $("p").css('color','red');
+      } else {
+        $("p").html('OK');
+        $("p").css('color','green');
+      }
+    })
+    // 全角チェック
+    $("#chk2").change(function(){
+      if(!$("input").val().match(/^[\u3040-\u30ff]+$/)) {
+        $("p").html('全角文字のみです');
+        $("p").css('color','red');
+      } else {
+        $("p").html('OK');
+        $("p").css('color','green');
+      }
+    })
+    // 番号チェック
+    $("#chk3").change(function(){
+      if(!$("input").val().match(/^\d+$/)) {
+        $("p").html('数字のみです');
+        $("p").css('color','red');
+      } else {
+        $("p").html('OK');
+        $("p").css('color','green');
+      }
+    })
+    // 英字チェック
+    $("#chk4").change(function(){
+        if(!$("input").val().match(/^[a-zA-Z]+$/)) {
+          $("p").html('英字のみです');
+          $("p").css('color','red');
+        } else {
+          $("p").html('OK');
+          $("p").css('color','green');
+        }
+    })
+    });
+  </script>
+</head>
+<body>
+ <p></p>
+ <label>入力チェック</label>
+ <input type="text" name="chkinput" size="30" maxlength="20">
+ <input type="radio" name="chk_grp" id="chk1">空白チェック
+ <input type="radio" name="chk_grp" id="chk2">全角チェック
+ <input type="radio" name="chk_grp" id="chk3">番号チェック
+ <input type="radio" name="chk_grp" id="chk4">英字チェック
+</body>
+</html>
+
+なんかよくわからんけどイベントハンドらの
+キーアップときーぷれすとチェンジが重要そう。
+
+イベントハンドら活用しまくったらすさまじいのできそう。
+テンプレ作りまくっていい。
+
+
+
+
