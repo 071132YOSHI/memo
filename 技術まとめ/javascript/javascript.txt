@@ -1,0 +1,19 @@
+1,基本は
+
+
+→javascriptで
+function test(){
+
+
+}
+
+
+→ＨＴＭＬで
+
+<input type="button" onclick="test()">
+
+
+みたいにやると一瞬でjavascript利用できる。
+
+
+2,
