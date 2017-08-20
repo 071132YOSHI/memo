@@ -1,0 +1,30 @@
+jquery,javascriptが終わったら
+後はテクニックをパクリまくる＋プラグインを入れまくる練習。
+
+この土日でライブラリ１０個は使えるようにする。
+ｃｄｎじゃなくて普通に落として使えるようにする。
+
+この数が勝負になる。
+できれば３０個、各分野１つを制覇したい。
+
+http://vegas.jaysalvat.com/documentation/transitions/
+↑むちゃくちゃユーザビリティーがいい。
+　とにかいいところを明確にして言ってパクリ続ける。
+
+いいとこ
+１、フォントがやらわかい
+２、時間制限がすーと増えていくやつでやってる。
+３、簡潔で整理されててわかりやすい(ボックスの多様、背景も変えてる。）
+
+
+背景・・・vegas 2
+画像スライド・・・bxSlider
+アニメーション・・・create.js　→相当おもしろい。
+フォーム系おもしろい
+ボタンクリック時のアニメ・・・animateclick
+カレンダー・・・jQuery ui Datepicker
+年月までのカレンダー・・・http://second2none.hatenablog.com/entry/2015/02/24/162710
+　　　　　　bootstrapで実現できる。そもそも
+
+
+プルダウン・・・https://webkaru.net/jquery-plugin/superfish/
